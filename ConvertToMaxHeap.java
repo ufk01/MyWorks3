@@ -15,6 +15,7 @@ public class ConvertToMaxHeap {
 			int data = keyboard.nextInt();
 			BST.Add(BST.root, data);
 		}
+		
 		System.out.println(
 				"If you want to delete an item, please enter 1\nIf you want to convert binary to maxHeap,please enter 2");
 		int operation = keyboard.nextInt();
