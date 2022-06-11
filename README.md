@@ -1,2 +1,2 @@
 # MyWorks3
-Personal Code
+Personal Code:In this project, I converted binary search tree to maximum binary heap. But while doing this process, I did it differently than the known method. First of all, I created a binary search tree by taking data from the user. Then I kept the elements from smallest to largest using array list inside the Inorder Traversal method. Finally, with the MaxHeap method, I took the elements one by one, starting from the bottom of the array list, and created a new binary tree. My logic for creating this tree was to fill in order from left to right and pay attention to the rule of the binary tree. So I got the maximum heap binary. In addition, since I put the elements in order from smallest to largest, I have also obtained heap sort.
